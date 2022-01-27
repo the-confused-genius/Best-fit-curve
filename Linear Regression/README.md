@@ -2,7 +2,8 @@
 Here I would be attempting to write a piece of code in c to compute a Line that could perfectly fit a set of data points aka Linear Regression.  
 <br>
 **Why c ?**  
-c is a very close to machine language, and can compute faster than 99% of Programming languages out there.
+c is a very close to machine language, and can compute faster than 99% of Programming languages out there.  
+It gives more accurate result than python programs. 
 
 
 <br><br>
