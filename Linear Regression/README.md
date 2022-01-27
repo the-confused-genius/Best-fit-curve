@@ -6,4 +6,4 @@ c is a very close to machine language, and can compute faster than 99% of Progra
 
 
 <br><br>
-I have set the minum required data points to 4, because even though it takes just 2 points to find the best fit line, the algorithm doesnt work that way.
+I have set the minum required data points to 2, because it takes just 2 points to find the best fit line.
