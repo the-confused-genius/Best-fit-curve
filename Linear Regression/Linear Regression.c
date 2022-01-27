@@ -13,7 +13,7 @@ int main()
     printf("Enter the number of elements : ");
     scanf("%d",&n);
     
-    if(n<4)
+    if(n<2)
     {
     	printf("\nVery less number of data points \nTry again !\n");
     	goto start;
@@ -48,9 +48,8 @@ int main()
         *(xbar + i) = *(xbar + i) * *(xbar + i);
         *(ybar + i) = *(xbar + i) * *(ybar + i);
 
-        sumxbar = sumxbar + *(xbar + i);
-        sumybar = sumybar + *(ybar + i);
-        
+	sumybar = sumybar + *(ybar + i);
+        sumxbar = sumxbar + *(xbar + i);        
     }
 	
     m = sumybar/sumxbar;
