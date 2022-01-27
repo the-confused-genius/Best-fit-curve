@@ -45,8 +45,8 @@ int main()
         *(xbar + i) = *(x + i) - xmean;
         *(ybar + i) = *(y + i) - ymean;
 
+	*(ybar + i) = *(xbar + i) * *(ybar + i);
         *(xbar + i) = *(xbar + i) * *(xbar + i);
-        *(ybar + i) = *(xbar + i) * *(ybar + i);
 
 	sumybar = sumybar + *(ybar + i);
         sumxbar = sumxbar + *(xbar + i);        
